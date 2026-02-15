@@ -14,5 +14,5 @@ python3 validate_field.py
 ```
 To run the tool with the specific file:
 ```bash
-To run the tool with the default file
+python3 validate_field.py -c your_file.csv
 ```

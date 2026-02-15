@@ -38,9 +38,9 @@ def check_fields(crm="excel_crm.csv"):
         else:
             if int(lines["Number of Visits"])>1000:
                    lines["Status"]="lead"    
-            elif   300<int(lines["Number of Visits"])<500:
+            elif   300<=int(lines["Number of Visits"])<=500:
                         lines["Status"]="middle lead"
-            elif 200<int(lines["Number of Visits"])<300:
+            elif 200<=int(lines["Number of Visits"])<=300:
                 lines["Status"]="lead chance low"
             else:
                 lines["Status"]="very low"

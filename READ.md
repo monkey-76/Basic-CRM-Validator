@@ -11,3 +11,8 @@ A Python-based Command Line Interface (CLI) tool designed to validate and catego
 To run the tool with the default file (`excel_crm.csv`):
 ```bash
 python3 validate_field.py
+```
+To run the tool with the specific file:
+```bash
+To run the tool with the default file
+```
